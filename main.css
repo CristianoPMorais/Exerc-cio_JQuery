@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 200%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #555;
+    border-radius: 20%;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;  
+    border-radius: 20%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(60, 80, 255);
+    color: rgb(91, 103, 216);
+}
+
+ol {
+    list-style-type: none;
+    padding: 16px;
+}
+
+ol li:hover {
+    text-align: center;
+    cursor: pointer;
+}
+
+ol li.TarefaInserida {
+    padding-bottom: 10px;
+}
+
+.strike-through{
+    text-decoration: line-through;
+}
